@@ -1,4 +1,34 @@
-html, body {
-  height: 100%;
-  width: 100%;
+#gameArea {
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 20px;
+  background-color: blanchedalmond;
+}
+#gameBoardLeft {
+  width: 5px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: rgb(13, 192, 82);
+  float: left;
+}
+#gameBoardRight {
+  width: 5px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: rgb(78, 110, 252);
+  float: right;
+}
+#ball {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(245, 10, 10);
+  border: black solid 1px;
+}
+#start {
+  margin-left: 20px;
+}
+#score {
+  margin-left: 200px;
 }
