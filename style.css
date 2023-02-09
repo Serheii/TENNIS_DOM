@@ -28,7 +28,10 @@
 }
 #start {
   margin-left: 20px;
+  float: left;
 }
 #score {
-  margin-left: 200px;
+  width: 500px;
+  text-align: center;
+  color: brown;
 }
